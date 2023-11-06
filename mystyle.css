@@ -1,0 +1,35 @@
+@charset "ISO-8859-1";
+.good h1{
+        font-size: 100px;
+        font-weight: 500;
+        color: white;
+        margin-top: 200px;
+    padding-top:50px;
+    padding-right:50px;
+    padding-bottom:50px;
+    padding-left:50px;
+}
+.soft{
+    background-color:rgb(162, 190, 121);
+    color:rgb(28, 28, 202);
+    padding-top:50px;
+    padding-right:50px;
+    padding-bottom:50px;
+    padding-left:50px;
+}
+.header h1{
+    font-size: 100px;
+    font-weight: 500;
+    color: white;
+    margin-top: 200px;
+  } 
+body{
+    background-image: url("https://media.istockphoto.com/id/1165260383/photo/male-hands-typing-text-or-programming-code-on-laptop.jpg?s=612x612&w=0&k=20&c=FiqY9ntLUPL-k7CIZ5JyZGZcWWA5dArUdU9mu5X-6Dk=");
+    background-position:no-repeat;
+    background-position:center ;
+    background-size: cover;
+
+
+}
+
+

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"content="width=device-width,initial-scale=1.0">
+        <title>Mech</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+<style>
+    .header{
+  height: 700px;
+  width: 100%;
+  background-image: url('https://media.istockphoto.com/id/1201268902/photo/automated-programmed-machine-industrial-laser-machine-cuts-out-parts-in-sheet-steel-heat.jpg?s=612x612&w=0&k=20&c=UoE1_imos-VHSFolP2hJ47K8A7wWGdmeOo6md8c5CkM='); 
+  background-position:center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+    }   
+    .header h1{
+      font-size: 100px;
+      font-weight: 500;
+      color: white;
+      margin-top: 200px;
+    } 
+ </style>
+ </head>
+ <body>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="header">
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                      <img src="data:image/png;base64,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">
+                      <div class="card-body">
+                        <h5 class="card-title">CATERPILLAR</h5>
+                        <h3>Design Engineer</h3>
+                        <h5>*Good to have skills</h5>
+                        <h5>*Solid works,Catio</h5>
+                        <h5>*Qualification-BE-MECH</h5>
+                        <h5>*Experience-0 to 1year(Fresher)</h5>
+                        <p class="card-text">*Location(Bangalore)</p>
+                        <a href="registration.html" class="btn btn-primary">apply here!!</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                      <img src="data:image/png;base64,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">
+                      <div class="card-body">
+                        <h5 class="card-title">TVS</h5>
+                        <h3>Design Engineer</h3>
+                        <h5>*Good to have skills</h5>
+                        <h5>*Solid works,AutoCad,Catio</h5>
+                        <h5>*Qualification-BE-MECH</h5>
+                        <h5>*Experience-0 to 1year(Fresher)</h5>
+                        <p class="card-text">*Location(Bangalore)</p>
+                        <a href="registration.html" class="btn btn-primary">apply here!!</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQfz3Vtcb95WhgI9bcdhyP_f2zQFBfZSPptw&usqp=CAU">
+                      <div class="card-body">
+                        <h5 class="card-title">EQUAD</h5>
+                        <h3>Design Engineer</h3>
+                        <h5>*Good to have skills</h5>
+                        <h5>*Solid works,AutoCad,NanoCad</h5>
+                        <h5>*Qualification-BE-MECH</h5>
+                        <h5>*Experience-0 to 1year(Fresher)</h5>
+                        <p class="card-text">*Location(Bangalore)</p>
+                        <a href="registration.html" class="btn btn-primary">apply here!!</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+ </body>
+ </html>
